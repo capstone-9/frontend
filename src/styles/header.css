@@ -1,7 +1,7 @@
 header {
   width: 100%;
-  padding: 18px 64px;
-  border-bottom: 1px solid lightgray;
+  padding: 17px 64px;
+  border-bottom: 1px solid rgb(228, 228, 231);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -13,17 +13,22 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .header__left__logo {
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(228, 228, 231);
+  background-color: black;
+  border-radius: 50%;
+  padding: 3px;
+  cursor: pointer;
 }
 
 .header__left__name {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .header__right {
@@ -34,22 +39,36 @@ header {
   gap: 16px;
 }
 
+.header__right__mode {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(228, 228, 231);
+  border-radius: 50%;
+  padding: 5px;
+  transition: opacity 0.3s ease, transform 0.6s ease;
+}
+
+.visible {
+  transform: rotate(360deg) scale(1);
+}
+
 .header__right__signin, .header__right__signup {
   height: 36px;
   padding: 0 12px;
   font-size: 14px;
   font-weight: 600;
   border-radius: 24px;
+  cursor: pointer;
+  border: 1px solid rgb(228, 228, 231);
 }
 
 .header__right__signin {
   background-color: white;
-  border: 1px solid lightgray;
   color: black;
 }
 
 .header__right__signup {
   background-color: black;
-  border: 1px solid black;
   color: white;
 }
