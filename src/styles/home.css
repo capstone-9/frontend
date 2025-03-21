@@ -40,17 +40,30 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
-.home__top__btn {
+.home__top__write {
   font-size: 14px;
   font-weight: 700;
-  color: var(--txt-reverse-color);
   background-color: var(--bg-reverse-color);
+  color: var(--txt-reverse-color);
+  border: 1px solid rgb(228, 228, 231);
   margin-top: 40px;
-  padding: 16px 32px;
+  padding: 14px 28px;
   border-radius: 30px;
-  border: none;
+  cursor: pointer;
+}
+
+.home__top__see {
+  font-size: 14px;
+  font-weight: 700;
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+  border: 1px solid rgb(228, 228, 231);
+  margin-top: 40px;
+  padding: 14px 28px;
+  border-radius: 30px;
   cursor: pointer;
 }
 
