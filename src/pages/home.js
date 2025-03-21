@@ -11,7 +11,8 @@ const Home = () => {
         <div className='home__top__title'>하루를 정리해주는<br />나만의 AI 친구</div>
         <div className='home__top__subtitle'>당신의 하루를 기록하고, 감정을 분석하여 해석해주는 따뜻한 AI 기반 일기 웹앱</div>
         <div className='home__top__list'>
-          <button className='home__top__btn'>일기 쓰기 시작하기</button>
+          <button className='home__top__write'>일기 쓰기 시작하기</button>
+          <button className='home__top__see'>일기 보기</button>
         </div>
 
         <motion.div
