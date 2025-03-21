@@ -30,7 +30,7 @@
   font-size: 18px;
   font-weight: 500;
   text-align: center;
-  color: #71717A;
+  color: var(--txt-info-color);
   margin-top: 30px;
   max-width: 300px;
 }
@@ -122,7 +122,7 @@
 .home__middle__info__subtitle {
   font-size: 16px;
   font-weight: 500;
-  color: #71717A;
+  color: var(--txt-info-color);
   text-align: center;
 }
 
@@ -141,17 +141,16 @@
 .home__bottom__title {
   font-size: 30px;
   font-weight: 700;
-  color: white;
+  color: var(--txt-reverse-color);
 }
 
 .home__bottom__subtitle {
   font-size: 16px;
-  color: #FAFAFACC;
+  color: var(--txt-info-reverse-color);
 }
 
 .gray { 
-  background-color: #ffffff;
-  opacity: 0.1;
+  background-color: var(--bubble-color);
 }
 
 .bubble-5 { top: 70px; left: 15%; width: 24px; height: 24px; }

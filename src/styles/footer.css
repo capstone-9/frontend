@@ -5,6 +5,7 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--bg-color);
 }
 
 .footer {
@@ -35,6 +36,7 @@ footer {
   width: 30px;
   height: auto;
   border: 1px solid rgb(228, 228, 231);
+  background-color: var(--bg-reverse-color);
   border-radius: 50%;
   padding: 3px;
 }
@@ -42,6 +44,7 @@ footer {
 .footer__name {
   font-size: 16px;
   font-weight: 800;
+  color: var(--txt-color);
 }
 
 .footer__right {
@@ -54,7 +57,7 @@ footer {
 .footer__right__info {
   font-size: 16px;
   font-weight: 600;
-  color: #71717A;
+  color: var(--txt-info-color);
   cursor: pointer;
 }
 
@@ -65,7 +68,7 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 14px;
-  color: #71717A;
+  color: var(--txt-info-color);
 }
 
 .footer__modal {
@@ -81,7 +84,7 @@ footer {
 }
 
 .footer__modal__content {
-  background: white;
+  background: var(--bg-color);
   padding: 30px 40px;
   border-radius: 10px;
   text-align: left;
@@ -96,6 +99,7 @@ footer {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 30px;
+  color: var(--txt-color);
 }
 
 .footer__modal__list {
@@ -112,10 +116,12 @@ footer {
   align-items: center;
   min-width: 350px;
   padding: 20px 0px;
+  color: var(--txt-color);
 }
 
 .modal__person__img {
   height: 50px;
+  filter: var(--icon-color);
 }
 
 .modal__person__info {
@@ -141,8 +147,8 @@ footer {
   padding: 10px 16px;
   font-size: 16px;
   font-weight: 600;
-  background: black;
-  color: white;
+  background: var(--bg-reverse-color);
+  color: var(--txt-reverse-color);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -151,5 +157,5 @@ footer {
 }
 
 .footer__modal button:hover {
-  background: #0056b3;
+  background: rgb(162, 162, 163);
 }

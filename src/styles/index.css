@@ -17,14 +17,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* 다크모드 */
-.dark__mode {
-  background-color: black;
-  color: white;
-}
-
 /* 라이트모드 */
 .light__mode {
-  background-color: white;
-  color: black;
+  --bg-color: white;
+  --bg-reverse-color: black;
+  --bg-gradient-color: linear-gradient(to top, hsl(240, 4.8%, 95.9%) 0%, #fff 100%);
+  --bg-bottom-color: #18181B;
+  --txt-color: black;
+  --txt-reverse-color: white;
+  --txt-info-color: #71717A;
+  --txt-info-reverse-color: #a5a5b1;
+  --icon-color: invert(0);
+  --bubble-color: rgba(255, 255, 255, 0.2);
+}
+
+/* 다크모드 */
+.dark__mode {
+  --bg-color: black;
+  --bg-reverse-color: white;
+  --bg-gradient-color: linear-gradient(to top, hsl(240 3.7% 15.9%) 0%, black 100%);
+  --bg-bottom-color: rgba(255, 255, 255, 0.1);
+  --txt-color: white;
+  --txt-reverse-color: black;
+  --txt-info-color: #a5a5b1;
+  --txt-info-reverse-color: #71717A;
+  --icon-color: invert(1);
+  --bubble-color: rgba(24, 24, 27, 0.2);
 }
