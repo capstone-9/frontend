@@ -29,6 +29,7 @@ body {
   --txt-info-reverse-color: #a5a5b1;
   --icon-color: invert(0);
   --bubble-color: rgba(255, 255, 255, 0.2);
+  --modal-color: rgba(0, 0, 0, 0.5);
 }
 
 /* 다크모드 */
@@ -43,4 +44,5 @@ body {
   --txt-info-reverse-color: #71717A;
   --icon-color: invert(1);
   --bubble-color: rgba(24, 24, 27, 0.2);
+  --modal-color: rgba(255, 255, 255, 0.5);
 }
