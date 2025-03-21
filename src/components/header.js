@@ -1,11 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { Link } from 'react-router-dom'
 import '../styles/header.css'
 
 const Header = () => {
   const [isDarkMode, setIsDarkMode] = useState(false)
+
+  useEffect(() => {
+    document.body.classList.add("light__mode"); // 기본값을 라이트 모드로 설정
+  }, []);
 
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode)
